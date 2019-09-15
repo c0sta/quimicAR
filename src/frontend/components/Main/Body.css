@@ -1,0 +1,23 @@
+
+  .App-container{
+    height: 82%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green;  */
+  }
+  .Link{
+    text-decoration: none;
+  }
+  .Container-buttons {
+    height: 60%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: red;  */
+  }
+  

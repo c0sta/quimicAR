@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  .First-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green;  */
+
+  }
+.First-header{
+    align-self:flex-start;
+}
+
+  .First-buttons{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: red;  */
+  }
+
+  .First-text{
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    
+    color: #000000;
+  }
+  
+  
+  
