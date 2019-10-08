@@ -1,0 +1,39 @@
+.Button-container-hidrogenio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 121px;
+    height: 123px;
+    border: none;
+    background-color: #A1D344;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    cursor:pointer;
+}
+.Button-container-hidrogenio:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+.Button-numero{
+    align-self: flex-start;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.Button-sigla{
+    align-self: center;
+    font-size: 43px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+
+.Button-nome{
+    align-self: center;
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
